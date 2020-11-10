@@ -1,0 +1,111 @@
+
+header{
+    font-family: 'Lato', sans-serif;
+    color: white;
+    font-size: 20px;
+    margin: 0px -10px 100px -10px;
+    background-color: black;
+}
+
+.image-block{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 50%;
+}
+li{
+    list-style-type: disc;
+    display: inline;
+    margin: 0;
+    padding: 0;
+    
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:goldenrod;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 34px 25px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: gold;
+  }
+/* unvisited link */
+a:link {
+    color: white;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: whitesmoke;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: goldenrod;
+    font-style: bold;
+  }
+  
+  /* selected link */
+  a:active {
+    color: green;
+  }
+body{
+    font-family: 'Dancing Script', cursive;
+    color: black;
+    background-image: url("https://images.pexels.com/photos/4518581/pexels-photo-4518581.jpeg?cs=srgb&dl=pexels-polina-tankilevitch-4518581.jpg&fm=jpg");
+    background-size: 100%;
+    background-color: lavender;
+    background-attachment: fixed;
+
+}
+.home{
+font-size: 50px;
+text-align: center;
+text-shadow: 2px 2px 8px goldenrod;
+}
+.about{
+  text-size: 30px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: left;
+  width: 300px;
+  border: 15px solid gold;
+  padding: 50px;
+  margin: 20px;
+}
+.recipe{
+  column-count: 3;
+  font-family: 'Lato', sans-serif;
+  text-align: justify;
+  font-size: 20px;
+  text-shadow: 2px 2px 8px gray;
+}
+footer {
+  display: block;
+  font-family: 'Lato', sans-serif;
+  font-style: bold;
+  font-size: 20px;
+  position: absolute;
+  height: 50px;
+  background-color: goldenrod;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin-bottom: 25px;
+  text-align: center;
+}
